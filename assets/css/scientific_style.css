@@ -1,0 +1,580 @@
+body {
+  font-family: 'Roboto Slab', serif;
+  max-width: 1400px;
+}
+
+.scientific {
+  position: relative;
+  height: 1600px;
+}
+
+#menu {
+  background-color: black;
+  width: 100%;
+}
+nav {
+      font-size: 20px;
+      width: 100%;
+      overflow: hidden;
+}
+
+#menu ul {
+  list-style: none;
+  font-size: 20px;
+  text-decoration:none;
+  /* color: white; */
+
+}
+nav ul{
+   list-style: none;
+   display: flex;
+   flex-direction: row;
+   margin-right: 10px;
+   justify-content: space-between;
+
+
+}
+nav ul li {
+   float: left;
+   padding: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+.miracles {
+  color: #C4C4C4;
+  font-size: 30px;
+  margin: 2%  40% 0 60%;
+}
+#left-rectangle, #right-rectangle{
+  position: relative;
+  transform: translateX(-37%);
+  background-color: #C4C4C4;
+  height: 1px;
+  width: 780px;
+}
+
+li#highlight{
+  text-decoration: underline;
+}
+
+
+#big-overlay2 {
+  background-color: #C4C4C4;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  opacity:0.1;
+}
+
+#scientific-heading{
+  margin-left: 25%;
+  color: green;
+  top: 10%;
+  position: absolute;
+  font-size: 40px;
+  z-index: -1;
+}
+
+
+#big-circle {
+  position:absolute;
+  align-self: center;
+  font-weight: bold;
+  font-family: 'Roboto Slab', serif;
+  top: 30%;
+  left: 25%;
+  border-radius: 50%;
+  border: 2px solid green;
+  width: 800;
+  height: 800;
+  z-index: 1;
+}
+
+#circle1 {
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 1px solid green;
+  z-index: 4;
+  background-image:url("../Images/deep-sea(iass).jpg");
+  background-size: cover; /* or contain depending on what you want */
+  background-position: center center;
+  background-repeat: no-repeat;
+  filter: grayscale(40%) saturate(70%) brightness(70%);
+
+}
+#circle1:hover {
+  filter: none;
+}
+
+#text1 {
+  position: absolute;
+  top: -20%;
+  left: 45%;
+}
+
+#circle2 {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 1px solid green;
+  z-index: 4;
+  background-image:url("../Images/mountains(cosmos).jpg");
+  background-size: cover; /* or contain depending on what you want */
+  background-position: center center;
+  background-repeat: no-repeat;
+  filter: grayscale(40%) saturate(70%) brightness(70%);
+
+}
+
+#circle2:hover {
+  filter: none;
+}
+
+#text2 {
+  position: absolute;
+  top: 110%;
+  left: 43%;
+}
+#circle3 {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 1px solid green;
+  z-index: 4;
+  background-image:url("../Images/iron-element(science4fun).jpg");
+  background-size: cover; /* or contain depending on what you want */
+  background-position: center center;
+  background-repeat: no-repeat;
+  filter: grayscale(40%) saturate(70%) brightness(70%);
+
+}
+
+#circle3:hover {
+  filter: none;
+}
+
+
+#text3 {
+  position: absolute;
+  top: 45%;
+  left: -20%;
+}
+#circle4 {
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 1px solid green;
+  z-index: 4;
+  background-image:url("../Images/atmosphere(science news for students).jpg");
+  background-size: cover; /* or contain depending on what you want */
+  background-position: center center;
+  background-repeat: no-repeat;
+  filter: grayscale(40%) saturate(70%) brightness(70%);
+
+}
+
+#circle4:hover {
+  filter: none;
+}
+
+#text4 {
+  position: absolute;
+  top: 45%;
+  left: 112%;
+}
+#circle5 {
+  position: absolute;
+  top: 15%;
+  left: 15%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 1px solid green;
+  z-index: 4;
+  background-image:url("../Images/bigbang(wikipedia).jfif");
+  background-size: cover; /* or contain depending on what you want */
+  background-position: center center;
+  background-repeat: no-repeat;
+  filter: grayscale(40%) saturate(70%) brightness(70%);
+
+}
+
+#circle5:hover {
+  filter: none;
+}
+
+#text5 {
+  position: absolute;
+  top: 2%;
+  left: -5%;
+}
+#circle6 {
+  position: absolute;
+  top: 85%;
+  left: 85%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 1px solid green;
+  z-index: 4;
+  background-image:url("../Images/cerebrum(twitter).jpg");
+  background-size: cover; /* or contain depending on what you want */
+  background-position: center center;
+  background-repeat: no-repeat;
+  filter: grayscale(40%) saturate(70%) brightness(70%);
+
+}
+
+#circle6:hover {
+  filter: none;
+}
+
+#text6 {
+  position: absolute;
+  top: 92%;
+  left: 92%;
+}
+#circle7 {
+  position: absolute;
+  top: 15%;
+  left: 85%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 1px solid green;
+  z-index: 4;
+  background-image:url("../Images/expanding(aasnova).jfif");
+  background-size: cover; /* or contain depending on what you want */
+  background-position: center center;
+  background-repeat: no-repeat;
+  filter: grayscale(40%) saturate(70%) brightness(70%);
+
+}
+
+#circle7:hover {
+  filter: none;
+}
+
+#text7 {
+  position: absolute;
+  top: 5%;
+  left: 100%;
+}
+#circle8 {
+  position: absolute;
+  top: 85%;
+  left: 15%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 1px solid green;
+  z-index: 4;
+  background-image:url("../Images/embryo(bioLogos).jpg");
+  background-size: cover; /* or contain depending on what you want */
+  background-position: center center;
+  background-repeat: no-repeat;
+  filter: grayscale(40%) saturate(70%) brightness(70%);
+
+}
+
+#circle8:hover {
+  filter: none;
+}
+
+#text8 {
+  position: absolute;
+  top: 95%;
+  left: 5%;
+}
+#circle9 {
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 1px solid green;
+  z-index: 4;
+  background-image:url("../Images/frontal-lobe(123rf).jpg");
+  background-size: cover; /* or contain depending on what you want */
+  background-position: center center;
+  background-repeat: no-repeat;
+  filter: grayscale(40%) saturate(70%) brightness(70%);
+
+}
+
+#circle99:hover {
+  filter: none;
+}
+
+#text9 {
+  position: absolute;
+  top: -20%;
+  left: 45%;
+}
+
+.reference1 {
+  display: none;
+}
+
+#circle1:hover + .reference1 {
+  display: block;
+  font-size: 28px;
+  font-weight: bold;
+  transform: translateX(250px) translateY(100px);
+  text-align: center;
+  width: 350px;
+}
+
+.reference2 {
+  display: none;
+}
+
+#circle2:hover + .reference2 {
+  display: block;
+  font-size: 28px;
+  font-weight: bold;
+  transform: translateX(250px) translateY(100px);
+  text-align: center;
+  width: 350px;
+}
+
+.reference3 {
+  display: none;
+}
+
+#circle3:hover + .reference3 {
+  display: block;
+  font-size: 28px;
+  font-weight: bold;
+  transform: translateX(250px) translateY(100px);
+  text-align: center;
+  width: 350px;
+}
+
+.reference4 {
+  display: none;
+}
+
+#circle4:hover + .reference4 {
+  display: block;
+  font-size: 28px;
+  font-weight: bold;
+  transform: translateX(250px) translateY(100px);
+  text-align: center;
+  width: 350px;
+}
+.reference5 {
+  display: none;
+}
+
+#circle5:hover + .reference5 {
+  display: block;
+  font-size: 28px;
+  font-weight: bold;
+  transform: translateX(250px) translateY(100px);
+  text-align: center;
+  width: 350px;
+}
+.reference6 {
+  display: none;
+}
+
+#circle6:hover + .reference6 {
+  display: block;
+  font-size: 28px;
+  font-weight: bold;
+  transform: translateX(250px) translateY(100px);
+  text-align: center;
+  width: 350px;
+}
+.reference7 {
+  display: none;
+}
+
+#circle7:hover + .reference7 {
+  display: block;
+  font-size: 28px;
+  font-weight: bold;
+  transform: translateX(250px) translateY(100px);
+  text-align: center;
+  width: 350px;
+}
+.reference8 {
+  display: none;
+}
+
+#circle8:hover + .reference8 {
+  display: block;
+  font-size: 28px;
+  font-weight: bold;
+  transform: translateX(250px) translateY(100px);
+  text-align: center;
+  width: 350px;
+}
+.reference9 {
+  display: none;
+}
+
+#circle9:hover + .reference9 {
+  display: block;
+  font-size: 28px;
+  font-weight: bold;
+  transform: translateX(250px) translateY(100px);
+  text-align: center;
+  width: 350px;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #FFC329;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+}
+#footer-community {
+
+  margin-left: 20px;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 22px;
+  font-weight:200;
+  padding:10px;
+}
+
+#insta {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right:60px;
+  margin-left: 80px;
+}
+
+#fb {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right:80px;
+
+}
+
+#sc {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right:80px;
+
+}
+
+#twitter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right:60px;
+
+}
+
+.menus {
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+}
+
+.Quran-list, .Articles, #rectangle, .About-us {
+  flex: 1;
+  flex-grow: 1
+}
+
+.heading {
+  font-size: 38px;
+  font-weight: bold;
+}
+#divine-origin, #articles-subcategories, #text, #History, #Read-it {
+  font-size: 28px;
+}
+
+.About-us {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.proofs-links {
+  font-size: 24px;
+  padding: 5px;
+}
+
+
+
+.About-us #rectangle {
+  width: 2px;
+  height: 200px;
+  background-color: white;
+}
+
+.About-us {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-right: 10px;
+  justify-content: space-around;
+
+}
+
+ .social-media img {
+  opacity: 0.7;
+}
+
+.social-media img:hover {
+  opacity: 1;
+}
+
+#divine-origin-heading:hover {
+  cursor: pointer;
+}
+
+#proofs {
+  display: none;
+}
+
+#proofs li{
+  list-style-type: none;
+  display:block;
+}
